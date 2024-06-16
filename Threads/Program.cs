@@ -2,8 +2,8 @@
 using Threads;
 
 #if DEV
-string source = @"C:\Users\samiv\Documents\opiskelu\ohjelmointi\fold-1";
-string target = @"C:\Users\samiv\Documents\opiskelu\ohjelmointi\fold-2";
+string source = @"";
+string target = @"";
 #else
 
 Console.WriteLine(args);

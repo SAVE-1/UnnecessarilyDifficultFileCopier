@@ -19,14 +19,14 @@
         public void Start()
         {
 #if DEV
-            //// empty the target folder everytime, easier for development
-            //Console.WriteLine($"Clearing {target} dir");
-            //DirectoryInfo di = new DirectoryInfo(target);
+            // empty the target folder everytime, easier for development
+            Console.WriteLine($"Clearing {target} dir");
+            DirectoryInfo di = new DirectoryInfo(target);
 
-            //foreach (FileInfo file in di.GetFiles())
-            //{
-            //    file.Delete();
-            //}
+            foreach (FileInfo file in di.GetFiles())
+            {
+                file.Delete();
+            }
 #endif
 
             Thread reader = new Thread(new ThreadStart(Reader));
