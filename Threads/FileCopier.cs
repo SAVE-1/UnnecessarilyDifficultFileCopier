@@ -37,8 +37,6 @@
 
             Thread copier = new Thread(new ThreadStart(Copier));
             copier.Start();
-
-
         }
 
         private void ProgressWriter()
