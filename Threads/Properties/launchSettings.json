@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Threads": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\samiv\\Documents\\opiskelu\\ohjelmointi\\fold-1\" \"C:\\Users\\samiv\\Documents\\opiskelu\\ohjelmointi\\fold-2\""
+    }
+  }
+}
